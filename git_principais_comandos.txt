@@ -21,6 +21,26 @@ Testando Suas Configurações
 	color.interactive=auto
 	color.diff=auto
 	
+Inicializando um Repositório num Diretório Existente
+
+	para o Linux:
+	$ cd /home/user/my_project
+	
+	para o Mac:
+	$ cd /Users/user/my_project
+	
+	para o Windows:
+	$ cd /c/user/my_project
+	
+	e digita:
+	$ git init
+
+Clonar um Repositório Existente
+
+	git clone <url>
+	exemplo
+	git clone https://github.com/libgit2/libgit2
+	
 Ao iniciar escrita no git commit
 	Insert
 
@@ -59,8 +79,6 @@ Mudar branch
 Adicionar todos os aquivos
 
 	git add --all
-
-
 
 	Se aparecer
 	Everything up-to-date
