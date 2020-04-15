@@ -9,34 +9,46 @@ Seu Editor
 
 	$ git config --global core.editor vim
 
-ao iniciar escrita no git commit
+Testando Suas Configurações
+
+	git config --list
+	
+	exemplo:
+	user.name=Fulano de Tal
+	user.email=fulanodetal@exemplo.br
+	color.status=auto
+	color.branch=auto
+	color.interactive=auto
+	color.diff=auto
+	
+Ao iniciar escrita no git commit
 	Insert
 
-ao terminar a escrita do comit
+Ao terminar a escrita do comit
 	esc
 
-sair do git commit ou do git log
+Sair do git commit ou do git log
 	shift + z + z
 
-preparar um diretório
+Preparar um diretório
 	git init
 
-sair do git log
+Sair do git log
 	q
 
-historico de mudancas
+Historico de mudancas
 	git log
 
-empurrar para nuvem
+Empurrar para nuvem
 	git push
 
-remover manualmente index.lock ou usar o comando
+Remover manualmente index.lock ou usar o comando
 	rm -f .git/index.lock
 
 SALVAR E SAIR DO VIM
 	CTRL + Z + Z
 
-mudar branch
+Mudar branch
 
 	git checkout <branch>
 
@@ -44,7 +56,7 @@ mudar branch
 
 	git checkout calculadora_de_datas
 
-adicionar todos os aquivos
+Adicionar todos os aquivos
 
 	git add --all
 
@@ -55,6 +67,6 @@ adicionar todos os aquivos
 
 	está tudo ok.
 	
-ver status e ver a branch atual
+Ver status e ver a branch atual
 
 	git status
