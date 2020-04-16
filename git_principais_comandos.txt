@@ -57,7 +57,11 @@ Clonar um Repositório Existente
 	git clone <url>
 	exemplo
 	git clone https://github.com/libgit2/libgit2
-	
+
+Fazer um commit
+
+	git commit -m "comentario"
+
 Ao iniciar escrita no git commit
 	Insert
 
